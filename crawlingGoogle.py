@@ -6,7 +6,7 @@ import os
 #Google
 #Create a Directory 'images' in advance
 
-keyword = input('검색어 입력: ')
+keyword = input('search name: ')
 shortKeyword = '-'.join(keyword.split())
 
 os.makedirs("images/"+shortKeyword)
